@@ -1,0 +1,6 @@
+pandas
+python-dotenv
+psycopg2-binary
+sqlalchemy
+dagster==1.8
+dagster-dbt
