@@ -1,3 +1,8 @@
-This is a repository for multiple dagster projects.
+# Dagster Multi-Project
 
-Will test out how code locations work. Each dagster project will probably be dealing with different cloud services. Multi cloud might be a thing. 
+This repository serves as a test ground for various ETL pipeline projects, both done using Dagster, and as prototypes prior to Dagster-ification of said ETL pipeline.
+
+Will also likely test out how code locations work using this project.
+
+List of projects include:
+- Prototype: Take CSV / Excel (of the various forms) from Google Drive and turn it into a dataframe. Upload dataframe to some postges table 
