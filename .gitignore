@@ -1,7 +1,23 @@
+# Environment
 *.env
 venv/
-.DS_Store
-**/.DS_Store
+config/
+
+# Credentials
 credentials.json
 **/credentials.json
 *.pickle
+
+# Python
+__pycache__/
+*.engg-info/
+*.egg
+
+# Logs
+logs/
+*.log
+
+
+# Other
+.DS_Store
+**/.DS_Store
