@@ -1,17 +1,32 @@
-pandas
-python-dotenv
-psycopg2-binary
-sqlalchemy
-dagster==1.8
+dagster==1.9
 dagster-dbt
+dagster-aws
+dagster-ssh
+dagster-postgres
+dagster-pandas
+dagster-github
+dagster-docker
+dagster-polars
 
-# Google Service INteraction
+dbt-core
+dbt-postgres
+
+sqlalchemy
+psycopg2-binary
+boto3
+
+pandas
+polars
+python-dotenv
+sshtunnel
+
+# Google Service Interaction
 google-auth
 google-auth-oauthlib # For OAuth 2.0 flows. Common for Workspace (GSuite) applications
 google-auth-httplib2
 google-api-python-client
 
-# code quality tools
+# Code Quality Tools / Static Analysis
 black
 pylint
 mypy
